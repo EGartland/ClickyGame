@@ -1,0 +1,61 @@
+[{
+    "id": 1,
+    "image": "./images/bernese.jpg",
+    "clicked": false
+},
+{
+    "id": 2,
+    "image": "./images/chocLab.jpg",
+    "clicked": false
+},
+{
+    "id": 3,
+    "image": "./images/cockerSpaniel.jpg",
+    "clicked": false
+},
+{
+    "id": 4,
+    "image": "./images/french.jpg",
+    "clicked": false
+},
+{
+    "id": 5,
+    "image": "./images/husky.jpg",
+    "clicked": false
+},
+{
+    "id": 6,
+    "image": "./images/pitbull.jpg",
+    "clicked": false
+},
+{
+    "id": 7,
+    "image": "./images/rottweiler.jpg",
+    "clicked": false
+},
+{
+    "id": 8,
+    "image": "./images/stBernard.jpg",
+    "clicked": false
+},
+{
+    "id": 9,
+    "image": "./images/yellowlab.jpg",
+    "clicked": false
+},
+{
+    "id": 10,
+    "image": "./images/germanShepherd.jpg",
+    "clicked": false
+},
+{
+    "id": 11,
+    "image": "./images/boxer.jpg",
+    "clicked": false
+},
+{
+    "id": 12,
+    "image": "./images/pug.jpg",
+    "clicked": false
+}
+]

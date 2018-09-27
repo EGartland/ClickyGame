@@ -1,0 +1,21 @@
+.parallax{
+    background-image: url("/images/rottweiler-puppies.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    z-index: -5;
+}
+
+.header{
+    height: 600px;
+    padding: 50px;
+    position: absolute;
+    z-index: 3;
+    top: 300px;
+    left: 350px;
+    text-align: center;
+}
+

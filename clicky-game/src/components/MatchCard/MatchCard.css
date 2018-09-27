@@ -1,0 +1,46 @@
+/* .card {
+    /* background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgb(0, 0, 0), 0 3px 6px rgb(0, 0, 0);
+    text-align: left;
+    justify-content: center; */
+/* } */
+
+/* .card hoverable{ */
+    /* overflow: hidden;
+    text-align: center;
+    background: black;
+    justify-content: center;  
+    margin: 20px;    */
+    /* border: 5px solid white;
+    padding: 10%;
+} */
+
+.card {
+    border: 5px solid white;
+    margin: 8px 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    z-index: 75;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .1s;
+    box-shadow: 0 9px 18px rgba(0,0,0,.16), 0 9px 18px rgba(0,0,0,.23);
+    z-index: 75;
+}
+
+.card>img {
+    background-size: cover;
+    /* background-position: 50%; */
+    height: 170px;
+    width: 170px;
+    /* border: 5px solid #f1f1f1; */
+    /* border-radius: 3px;    */
+}  
+
+.card>img:hover {
+    /* box-shadow: 3px 6px 20px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23); */
+    box-sizing: inherit;
+}
