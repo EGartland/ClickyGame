@@ -10,10 +10,10 @@ const NavBar = ({ correctGuesses, bestScore, clickMessage }) => {
 					<a href='/' className="btn btn-outline-light btn-lg" role="button">Click the Pups!</a>
 				</li>
 				<li>
-					<h4>{clickMessage}</h4>
+					<h4 className="messageCard">{clickMessage}</h4>
 				</li>
 				<li>
-					<h4>Score: {correctGuesses} < br />Top Score: {bestScore}</h4>
+					<h4 className="scoreCard">Score: {correctGuesses} < br />Top Score: {bestScore}</h4>
 				</li>
 			</ul>
 

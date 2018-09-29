@@ -4,20 +4,29 @@
     width: 33.3%;
     text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: relative;
 }
 
 .btn-outline-light {
     text-shadow: none;
+    margin-bottom: 30px;
+    margin-left: -140px;
    
+}
+
+.scoreCard{
+    margin-top: 15px;
+    margin-right: -180px;
 }
 
 .navbar ul {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .navbar {
-    min-height: 70px;
+    max-height: 90px;
     position: fixed;
     width: 100%;
     -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
