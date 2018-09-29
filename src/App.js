@@ -3,6 +3,7 @@ import MatchCard from "./components/MatchCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import matches from "./imgCards.json";
 import "./App.css";
 
@@ -122,6 +123,8 @@ class App extends Component {
           </div>
 
         </Wrapper>
+
+        <Footer></Footer>
       </div>
     );
   };
