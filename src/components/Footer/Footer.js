@@ -5,9 +5,9 @@ const Footer = () => {
     return (
 
       
-<footer class="page-footer">
+<footer className="page-footer">
 
-<div class="bottom bg-danger">
+<div className="bottom bg-danger">
 <p>Made with React <img alt="react" src="/images/favicon.png"></img></p>
 </div>
 </footer>

@@ -6,7 +6,7 @@ const NavBar = ({ correctGuesses, bestScore, clickMessage }) => {
 	return (
 		<nav className="navbar bg-danger">
 			<ul>
-				<li className="brand">
+				<li className="navList">
 					<a href='/' className="btn btn-outline-light btn-lg" role="button">Click the Pups!</a>
 				</li>
 				<li>

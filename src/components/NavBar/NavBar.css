@@ -1,20 +1,3 @@
-/* .navbar {
-    min-height: 70px;
-    top: 0;
-    position: fixed;
-    width: 100%;
-    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
-    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
-    color: #fff;
-    z-index: 99;
-    white-space: nowrap;
-    display: block;
-}
-
-.navbar-text{
-    float: left;
-} */
-
 .navbar li {
     display: inline-block;
     padding: 6px 0;
@@ -23,9 +6,10 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/* .container-fluid {
-    top: 0px
-} */
+.btn-outline-light {
+    text-shadow: none;
+   
+}
 
 .navbar ul {
     margin: 0;
@@ -39,7 +23,6 @@
     -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
     box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
     color: #fff;
-    font-size: calc(10px + 14 * (100vw - 320px)/ 800);
     z-index: 99;
     white-space: nowrap;
     display: block;
